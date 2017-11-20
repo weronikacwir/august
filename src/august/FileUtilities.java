@@ -41,7 +41,7 @@ public static boolean exists(String pathname) {
  *
  * @param pathname relative or absolute path for the file or directory to be 
  * deleted
- * @return 'true' if the file or directory was succesfully deleted,
+ * @return 'true' if the file or directory was successfully deleted,
  * 'false' otherwise
  */
 public static boolean delete(String pathname) {
