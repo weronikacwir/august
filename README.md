@@ -9,10 +9,15 @@ August takes xml scripts that specify a user interaction by listing a sequence o
 
 The motivation was to free humans from performing the same test by hand more than once. Some people who worked with me at KL Group/ Sitraka / Quest generously contributed code to this pet project of mine. But it never progressed beyond proof-of-concept by the time I took a long hiatus from computer science.  And now that I'm back I see that commercial tools that automate GUI testing already exist. Still, I'll keep working on it when I have time, if only to practice concurrent programming, reflection, OO patterns, etc.
 
-TestEngine.java is the heart of August - start there.
+
+Getting Started
+---------------
+At the moment all you can do is look at the code. TestEngine.java is the heart of August - start there.
+
+(Note to self: to make August work, implement missing parts of Option & OptionParser; find a simple Swing application on which August can practice, and write an xml test script for it.)
 
 
-Some tasks:
+Some Tasks
 -----------
 
 -- Implement august.Option and august.OptionParser. (They existed once, but that was before the days of the cloud, when it was still possible to lose things.)
